@@ -61,7 +61,7 @@ class TestListFunctions(unittest.TestCase):
 		
 		self.assertRaises(ValueError, self.theList.remove, -1)
 
-	def test_thistestwillfail(self):
+	'''def test_thistestwillfail(self):
 		"""show you what a failed test looks like
 		"""
 		
@@ -69,3 +69,4 @@ class TestListFunctions(unittest.TestCase):
 		# remove will not raise the expected exception
 		
 		self.assertRaises(ValueError, self.theList.remove, 0)
+'''
